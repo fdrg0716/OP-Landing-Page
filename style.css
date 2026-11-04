@@ -15,9 +15,11 @@ button {
     background-color: #3882F6;
     flex-grow: 0;
     padding: 8px 35px;
-    color: #F9FAF8;
     border: 0;
     border-radius: 4px;
+}
+#original {
+    color: #F9FAF8;
 }
 .header {
     padding: 20px 280px;
@@ -114,4 +116,35 @@ button {
     color:#1F2937;
     font-weight: bold;
     text-align:right;
+}
+.sign-up-section {
+    background-color: #F9FAF8;
+    padding: 150px 260px;
+}
+.sign-up-card {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    color:#F9FAF8;
+    gap: 20px;
+}
+.sign-up-card h5 {
+    font-size: 24px;
+    margin: 0;
+}
+.sign-up-card p {
+    font-size: 18px;
+    margin: 0;
+}
+#inverted {
+    color:#F9FAF8;
+    border: 3px solid #F9FAF8;
+    margin: auto 40px;
 }
