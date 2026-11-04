@@ -24,7 +24,7 @@ button {
 .header {
     padding: 20px 280px;
 }
-.header, .footer, .title-section {
+.header, .title-section {
     display: flex;
     margin: 0;
     justify-content: space-between;
@@ -147,4 +147,10 @@ button {
     color:#F9FAF8;
     border: 3px solid #F9FAF8;
     margin: auto 40px;
+}
+.footer {
+    text-align: center;
+    color:#F9FAF8;
+    padding: 30px;
+    background-color: #1F2937;
 }
