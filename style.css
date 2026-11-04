@@ -95,3 +95,23 @@ button {
     text-align: center;
     color: #1f2937;
 }
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 150px 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+.quote-speaker {
+    font-size: 25px;
+    color:#1F2937;
+    font-weight: bold;
+    text-align:right;
+}
